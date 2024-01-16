@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 - Exercise Count</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exercise Count</h1>
+        
+        <button id="push-up-btn" onclick="pushUpIncrement()">Push Up</button>
+        <span id="pushup-count">0</span>
+
+        <button id="sit-up-btn" onclick="sitUpIncrement()">Sit Up</button>
+        <span id="situp-count">0</span>
+
+        <button id="squat-btn" onclick="squatIncrement()">Squats</button>
+        <span id="squat-count">0</span>
+
+        <button id="total-btn" onclick="totalCount()">Total</button>
+        <span id="total-count">0</span>
+
+        <button id="save-btn" onclick="save()">Save</button>
+        <p id="save-count">Previous Count: </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
